@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,7 +21,7 @@ public class TextEffects : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { 
         //Color32[] colors;
         charCount = textMesh.textInfo.characterCount;
         textMesh.ForceMeshUpdate();
